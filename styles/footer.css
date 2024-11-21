@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@media screen and (max-width: 650px) {
+
+    footer{
+        padding: 64px 20px 80px 20px;
+        font-family: var(--fonte);
+    }
+
+    footer p{
+        padding: 32px 0px;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    footer strong{
+        font-weight: bold;
+    }
+
+    nav a {
+        margin-right: 32px;
+    }
+    .imagem-link{
+        transition-duration: 1s;
+    }
+    #facebook:hover img{
+        content: url(../assets/HOVERfacebook.svg);
+    }
+    #instagram:hover img{
+        content: url(../assets/HOVERinstagram.svg);
+    }
+    #twitter:hover img{
+        content: url(../assets/HOVERtwitter.svg);
+    }
+}

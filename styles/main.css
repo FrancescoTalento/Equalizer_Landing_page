@@ -1,0 +1,111 @@
+@charset "UTF_8";
+
+@media screen and (max-width: 650px) {
+    /* .teste{
+        height: 390px;
+        margin: 0;
+        padding: 0;
+    } */
+     
+    main{
+        background-image: url(../assets/bg-pattern-2.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-color: var(--preto);
+        
+
+    }
+
+    div.app{
+        width: 100%;
+        display: grid;
+        place-items: center;
+        
+        
+    }
+    div.app img{
+        margin-top: -110px;
+        padding-bottom: 50px;
+    }
+
+
+    div.subscription_fee{
+        background-color: var(--laranja);
+        padding: 48px 20px;
+    }
+
+    div h2{
+        line-height: 110%;
+        font: bold 40px var(--fonte);
+    }
+
+    h2 + p{
+        padding: 24px 0px 40px 0px;
+    }
+
+    div.price{
+        display: flex;
+    }    
+
+    div.price h3{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 110%;
+    }
+    div.price p{
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    div.butoes{
+        margin-top: 48px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    button{
+        border: none;
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        font-size: 18px;
+        line-height: 180%;
+        border-radius: 12px;
+        width: 335px;
+        transition-duration: 0.5s;
+        
+    }
+
+   #btn1{
+        margin-bottom: 16px;
+        background-color: var(--preto);
+        color: var(--branco);
+   }
+   #btn1:hover{
+    color: var(--preto);
+    background-color:var(--ciano);
+    transform: scale(1.1)
+   }
+
+   #btn2{
+    background-color: var(--branco);
+    color: var(--preto);
+    
+   }
+   #btn2:hover{
+    background-color: var(--amarelo);
+    transform: scale(1.1);
+   }
+
+   
+
+   button img{
+    margin-right: 8px;
+   }
+}

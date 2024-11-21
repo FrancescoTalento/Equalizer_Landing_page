@@ -1,0 +1,29 @@
+@media screen and (max-width: 650px){
+
+    
+
+    header{
+        background-color:var(--branco);
+        padding: 64px 20px 174px 20px;
+        background-image: url(../assets/mobile-illustration.png);
+        background-position: right top;
+
+        background-repeat: no-repeat;
+        
+
+    }
+    header img {
+        margin-bottom:64px;
+    }
+    header h1{
+        margin-bottom: 20px;
+        font-size: 40px;
+        letter-spacing: -1px;
+        font-weight: bold;
+    }
+    header p{
+        font-size: 1em;
+        line-height: 150%;
+    }
+
+}
