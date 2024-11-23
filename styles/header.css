@@ -1,6 +1,4 @@
-@media screen and (max-width: 650px){
-
-    
+@charset "UTF-8"; 
 
     header{
         background-color:var(--branco);
@@ -26,4 +24,34 @@
         line-height: 150%;
     }
 
+@media screen and (min-width: 750px){
+
+    header{
+        background-image: url(../assets/headerBG/RT-bg-header-removebg-preview.png), url(../assets/headerBG/left-topBG-header.png), url(../assets/headerBG/centerBG-header.jpg);
+        background-position: right top,left top, bottom right;
+        background-size: auto,auto;
+
+        padding-right:40px;
+        padding-left: 40px;
+        padding-bottom: 264px;
+    }
+
+    header img{
+        margin-bottom: 128px;
+        width: 25%;
+
+    }
+
+    header h1{
+        font-size: 64px;
+        line-height: 95%;
+        text-align: left;
+        max-width: 420px;
+        margin-bottom: 40px;
+    }
+
+    header p{
+        max-width: 500px;
+        text-align: left;
+    }
 }

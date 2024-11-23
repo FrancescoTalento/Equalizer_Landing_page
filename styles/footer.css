@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 650px) {
+
 
     footer{
         padding: 64px 20px 80px 20px;
@@ -30,5 +30,11 @@
     }
     #twitter:hover img{
         content: url(../assets/HOVERtwitter.svg);
+    }
+
+
+@media screen and (mix-width: 770px) {
+    img{
+        width: 23%;
     }
 }
