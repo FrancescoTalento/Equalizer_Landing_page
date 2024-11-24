@@ -46,5 +46,16 @@
             padding-top: 264px;
         }
 }
-   
+
+
+@media screen and (min-width: 1140px) {
+    footer{
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+
+        justify-content: space-around;
+        align-items: center;
+    }
+}
 
