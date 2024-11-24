@@ -27,10 +27,9 @@
 @media screen and (min-width: 750px){
 
     header{
-        background-image: url(../assets/headerBG/RT-bg-header-removebg-preview.png), url(../assets/headerBG/left-topBG-header.png), url(../assets/headerBG/centerBG-header.jpg);
+        background-image: url(../assets/headerBG/RT-bg-header-removebg-preview.png), url(../assets/headerBG/left-topBG-header.png), url(../assets/headerBG/BG_center_desktop.png);
         background-position: right top,left top, bottom right;
-        background-size: auto,auto;
-
+        background-color: var(--branco);
         padding-right:40px;
         padding-left: 40px;
         padding-bottom: 264px;
@@ -38,7 +37,7 @@
 
     header img{
         margin-bottom: 128px;
-        width: 25%;
+
 
     }
 
@@ -54,4 +53,37 @@
         max-width: 500px;
         text-align: left;
     }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    header {
+
+            background-image: url(../assets/headerBG/BG_desktopRT.png), url(../assets/headerBG/left-topBG-header.png), url(../assets/headerBG/BG_center_desktop.png);
+            background-position: right top, left top, bottom right;
+            background-size: auto, auto;
+            
+            padding: 64px 160px 264px 160px;
+            
+        }
+
+        header img {
+            margin-bottom: 128px;
+    
+    
+        }
+    
+        header h1 {
+            font-size: 88px;
+            max-width: 928px;
+            margin-bottom: 40px;
+        }
+    
+        header p {
+            max-width: 740px;
+            font-size: 20px;
+
+        }
+        
 }

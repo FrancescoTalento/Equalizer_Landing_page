@@ -33,8 +33,18 @@
     }
 
 
-@media screen and (mix-width: 770px) {
-    img{
-        width: 23%;
-    }
+@media screen and (min-width: 770px) {
+    p {
+            font-size: 20px;
+        }
+    
+        footer {
+            background-image: url(../assets/mainBG/bg2Tablet.png);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+    
+            padding-top: 264px;
+        }
 }
+   
+
