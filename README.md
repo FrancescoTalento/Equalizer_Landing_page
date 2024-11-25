@@ -75,13 +75,11 @@ equalizer-landing-page/
 
 ## Development Process
 ### Challenges Faced
-1. **Responsive Images**
-Implementing responsive images using the <picture> element presented a unique challenge. The goal was to ensure that users on different devices (mobile, tablet, desktop) would see images optimized for their screen size without unnecessary loading times. I had to experiment with multiple image formats (.png, .jpeg) and define proper srcset values to handle resolution-specific images. Debugging inconsistencies, especially for high-density screens, was a learning experience in balancing performance and quality.
 
-2. **Background Image Positioning**
+1. **Background Image Positioning**
 The design required precise placement of background images to enhance the visual appeal of the page. For example, the header and main sections had layered backgrounds that needed to align correctly on different screen sizes. I struggled with maintaining alignment and proportions as the viewport changed, especially when transitioning between tablet and desktop breakpoints. This was resolved by fine-tuning background-position and background-size properties while ensuring no critical elements were obscured.
 
-3. **Tablet and Desktop Layouts in the Main Section**
+2. **Tablet and Desktop Layouts in the Main Section**
 The main section, featuring the app preview and subscription details, was particularly challenging. For the tablet layout, aligning the app preview on the left and subscription details on the right required a combination of Flexbox and careful margin adjustments. On desktops, the larger screen size demanded a redesign to maintain balance and visual hierarchy. Overcoming these challenges involved:
 
   - Experimenting with Flexbox properties (align-items, justify-content) to ensure proper alignment.
