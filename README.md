@@ -27,7 +27,7 @@ The **Equalizer Landing Page** is a visually appealing, responsive design for sh
 - **Accessibility**: Ensures users can navigate and understand the page easily.
 
 ## Demo
-- **Live Site URL**: [Add live demo link here](https://francescotalento.github.io/Equalizer_Landing_page/)
+- **Live Site URL**: [live demo link here](https://francescotalento.github.io/Equalizer_Landing_page/)
 
 ## Getting Started
 ### Prerequisites
